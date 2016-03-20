@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/lilt_mainScreen1"
+    tools:context="com.closet.anusha.dresser.Main22ActivityFragment"
+    tools:showIn="@layout/activity_main22">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Dresser.."
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/mainTv1"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:background="@drawable/buttonbg"
+        android:textColor="#ffffff"/>
+    <ImageView
+        android:alpha="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/mainScreenImage"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>
